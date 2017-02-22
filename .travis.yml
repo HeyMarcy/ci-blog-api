@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: yCDzp/UMbYykWoPc7OlG+OjYsnptRCA00kU1BH8PNwMLrXpxxQ2RFVCRtTDUTaEOOxmMXg01dI23TrexICwjJNoSZVR1pY4x/IQCbpW+VSEiL82cTsprVDQpHoHY9JKUDwqVNHv73aN438981xYwRuSQaK0io/4p0AzaFA5qz+RiJY2jcFjNJjYMrk1x4TyriYBsLdMTIDiPcMpffPvOEeLH95MaReblUFpdwJgTnel9VVBs5pvurdcKKmVWLZrCUxXbEbL+7mGHx0nZ2IgpXSyVqPQy8rk0o+sC29GwxNdaMN9D+MIc8bZ+44kg1MvfnYBYPRJahDx4FLEeqaixb9C+OHrCEgly+yX2gwHs4+Ycbp4wdOpIdcxFAATfRXTeRRcIVBE/BKqwm2wacoDo7Hj6MEtQ9Op82P7GdlIXja4NtqfC4q2efVImF8lnZQiHUq3CxTnsjvzp4diZ4Bgp9Oz3DCsKu9Kj3F9u7r5LUk0NCgXE2o75ldNKMivupA01JxpEBc6L/JKF57lRZ/hJ2u49iq+KLAv2XXmTVQM/hh4dJm2iTkQzxCpRDkLc7jP/jOjaMF5mZcTuJxKGEwIOXaRmuMJPLVKN/z3dmYVDwOrbDc0MQkRayL/AhP0dSupd70HSdLsxD2aPbE810Y4ReiR1EULqQ2s0fcQu4BloD4w=
+  app: ci-blog-api
+  on:
+    repo: HeyMarcy/ci-blog-api
